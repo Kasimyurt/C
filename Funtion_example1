@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+// func1 fonksiyonu: "programming " kelimesini ekrana yazdırır.
+void func1() {
+    printf("programming ");
+}
+
+// main fonksiyonu: Programın başlangıç noktasıdır.
+int main() {
+    // "C" kelimesini ekrana yazdırır.
+    printf("C");
+    
+    // func1 fonksiyonunu çağırır.
+    func1();
+    
+    // "language." kelimesini ekrana yazdırır.
+    printf("language.");
+    
+    // Program başarılı bir şekilde sonlandırılır.
+    return 0;
+}
+
+//Output:
+//C programming language.
